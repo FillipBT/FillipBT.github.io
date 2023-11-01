@@ -1,0 +1,52 @@
+div{
+    border: 2px solid black;
+}
+.main{
+    margin: auto;
+}
+
+.topp{
+ padding: 5px;   
+}
+
+
+.nav{
+
+}
+.nav a{
+
+    padding: 5px 10px 5px 10px ;
+
+    font-size: larger;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+
+}
+.nav li  {
+    
+    display: inline;
+}
+.innhold{
+    
+    display: flex;
+    height: auto;
+    padding: 10px;
+}
+.innhold > div {
+
+    margin: 10px;
+    padding: 20px;
+
+  }
+.fish {
+    height: 150px;
+}
+.footer{
+   padding: 100px 0px 0px 0px;
+   text-align: center;
+}
+.artikkel{
+    border: 0px;
+    max-width: 200px;
+}

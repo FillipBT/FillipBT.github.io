@@ -1,0 +1,99 @@
+div{
+    border: 2px solid black;
+    max-width: contain;
+}
+
+.main{
+    margin: auto;
+}
+
+.topp{
+    padding: 5px; 
+    display: flex;  
+    justify-content: space-between
+}
+
+
+.innhold{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    padding: 10px;
+
+}
+
+@media only screen and (max-width: 1000px){
+
+    .innhold{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+}
+
+
+.innholdsTittel{
+    order: 1;
+}
+.test{
+    order: 2;
+}
+.artikkel{
+    order: 99;
+    border: 0px;
+    max-width: 200px;
+    margin: 40px;
+}
+.artikkelInnhold{
+    border: 0px;
+    display: flex;
+    order: 3;
+}
+
+@media only screen and (max-width: 1000px){
+    .artikkelInnhold{
+
+        border: 0px;
+        display: flex;
+        order: 3;
+        flex-wrap: wrap;
+
+    }}
+.innhold > div {
+
+    margin: 10px;
+    padding: 20px;
+
+  }
+.fish {
+    height: 150px;
+}
+.footer{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+   
+}
+
+.footerInnhold{
+    display: flex;
+    border: 0px;
+    flex-wrap: wrap;
+}
+
+.copy{
+    padding: 100px 0px 0px 0px; 
+    text-align: center;
+}
+.copyright{
+    border: 0px;
+}
+
+h2{
+    padding: 20px;
+}

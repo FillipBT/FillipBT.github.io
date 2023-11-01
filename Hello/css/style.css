@@ -1,0 +1,98 @@
+/* div {
+    border: 1px solid black;
+    margin: 20px;
+
+} */
+
+img{
+    /*height: auto;*/
+    max-width: 100%;
+}
+
+
+
+
+.main{
+
+    width: 100%;
+    margin:auto;
+
+}
+
+.topp{
+    height: 100px;
+
+}
+
+#logoBilde {
+   height: 100px; 
+
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    
+}
+.nav li  {
+    
+    display: inline;
+}
+
+.nav a{
+    padding: 10px 20px 10px 20px ;
+
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+.nav a:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    
+}
+
+.innhold {
+    min-height: 300px;
+    margin: 10px;
+    display: flex;
+
+}
+.innhold > div {
+
+    margin: 10px;
+    padding: 20px;
+
+  }
+
+
+
+.artikkel{
+    max-width: 400px;
+
+}
+
+
+.artikkelBilde{
+    max-width: 800px;
+}
+
+.artikkelBilde img{
+    width: 100%;
+}
+
+
+.footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+
