@@ -50,7 +50,9 @@ html, body {
   box-sizing: border-box;
 }
 
-@media (max-width: 850px){
+
+
+@media (min-width: 850px){
   .top-nav{
     border-radius: 100px;
   }
@@ -66,7 +68,7 @@ html, body {
   color: #FFF;
   height: 50px;
   padding: 1em;
-  border-radius: 100px;
+  
 }
 
 .menu {
