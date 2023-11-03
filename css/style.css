@@ -1,12 +1,12 @@
 body{
     background: white;
-
+    background: linear-gradient(to left, #17BEBB, #85CB33);
 }
 
 
 div{
-    
-    margin: 10px;
+  margin: 10px;
+  
     
 }
 
@@ -18,13 +18,22 @@ div{
 
 }
 
+
+.logo{
+  text-decoration: none;
+  color: white;
+}
+
 .nav{
    
     position: sticky;
     top: 0;
-    
-
+}   
+.navLink{
+  text-decoration: none;
+  color: white;
 }
+
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 h2 {
   vertical-align: center;
@@ -41,6 +50,11 @@ html, body {
   box-sizing: border-box;
 }
 
+@media (max-width: 850px){
+  .top-nav{
+    border-radius: 100px;
+  }
+}
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -52,6 +66,7 @@ html, body {
   color: #FFF;
   height: 50px;
   padding: 1em;
+  border-radius: 100px;
 }
 
 .menu {
@@ -62,7 +77,7 @@ html, body {
   padding: 0;
 }
 
-.menu > li {
+.menu > .navLink {
   margin: 0 1rem;
   overflow: hidden;
 }
@@ -117,7 +132,7 @@ html, body {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .menu-button-container {
     display: flex;
   }
@@ -131,20 +146,20 @@ html, body {
     justify-content: center;
     align-items: center;
   }
-  #menu-toggle ~ .menu li {
+  #menu-toggle ~ .menu a {
     height: 0;
     margin: 0;
     padding: 0;
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  #menu-toggle:checked ~ .menu li {
+  #menu-toggle:checked ~ .menu a {
     border: 1px solid #333;
     height: 2.5em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  .menu > li {
+  .menu > .navLink {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -153,33 +168,46 @@ html, body {
     color: white;
     background-color: #222;
   }
-  .menu > li:not(:last-child) {
+  .menu > .navLink:not(:last-child) {
     border-bottom: 1px solid #444;
   }
 }
 
 .innhold{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
-    align-items: flex-start;
+ 
     justify-content: center;
-    
+    flex-direction: column;
+}
+.info{
+  display: flex;
+  justify-content: center;
+
 }
 
+.infoInnhold{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 40%;
+  color: white;
+
+}
 
 @media only screen and (max-width: 1000px){
 
     .innhold{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
+       
         justify-content: center;
         
 
     }
 }
-a{
+.oppgaveLink{
     text-decoration: none;
     color: rgb(240, 240, 240);
     font-family: "Rubik", sans-serif;
@@ -193,6 +221,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     max-width: 75%;
 
 }
@@ -214,9 +243,10 @@ a{
 }
 
 
+
 .button{
  
-    
+    width: 100%;
     border: none;
     color: rgb(255, 255, 255);
     font-family: "Rubik", sans-serif;
@@ -229,7 +259,7 @@ img{
     object-fit: fill;
 }
 
-#text, #text2, #text3, #text4{
+#text, #text2, #text3, #text4, #text5{
     display: none;
 }
 
