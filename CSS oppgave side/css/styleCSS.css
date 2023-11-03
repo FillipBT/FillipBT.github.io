@@ -1,6 +1,6 @@
 body{
     background: white;
-    background: linear-gradient(to left, #17BEBB, #85CB33);
+    background: linear-gradient(to left, #C1CFDA, #20A4F3);
 }
 
 
@@ -61,7 +61,7 @@ html, body {
   align-items: center;
   justify-content: space-between;
   background-color: #00BAF0;
-  background: linear-gradient(to left, #f46b45, #eea849);
+  background: linear-gradient(to right, #C2C1C2, #42213D);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 50px;
@@ -237,7 +237,7 @@ html, body {
     min-height: 100%;
     border-radius: 10px;
     margin: 40px;
-    background: linear-gradient(to left, #f46b45, #eea849);
+    background: linear-gradient(to left, #C2C1C2, #42213D);
     
 
 }
