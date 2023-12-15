@@ -1,0 +1,63 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    position: absolute;
+    left: 30px;
+    top: -9px;
+
+}
+
+.hr1 {
+    width: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 40px; left: -90px;
+
+}
+
+.hr2   {
+    width: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 40px; left: 850px;
+    
+}
+
+.hr3    {
+    transform: rotate(90deg);
+    border: 1px solid black;
+    position: relative;
+    right: 600px;
+}
+
+.hr4 {
+    border: 1px solid black;
+    transform: rotate(90deg);
+    position: relative; 
+    right: 400px;
+    top: -10px;
+    width: 3.5%;
+
+}
+
+.hr5 {
+    border: 1px solid black;
+    transform: rotate(90deg);
+    position: relative;
+    right: 200px;
+    top: -20px;
+    width: 3.5%;
+
+}
+
+.hr6 {
+    border: 1px solid black;
+    transform: rotate(90deg);
+    position: relative;
+    right: 89px;
+    top: -20px;
+    width: 3.5%;
+
+}

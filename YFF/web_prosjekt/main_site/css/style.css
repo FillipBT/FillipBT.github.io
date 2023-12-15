@@ -1,0 +1,290 @@
+
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: #E1DCD9;
+
+}
+
+
+
+.Clothes {
+    background-color: #32435f;
+    color: #E1DCD9;
+    width: 11%;
+    border: 2px solid #E1DCD9;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 70px;
+    font-size: xx-large;
+    height: 70px;
+    position: absolute;
+    top: -0%; left: 0%;
+    display: inline-block;
+  }
+
+.Clothes:hover, .brand:hover, .men_clothes:hover, .women_clothes:hover, .box6:hover, .box7:hover, .box8:hover {
+    background-color: #E1DCD9;
+    border-color: #32435f;
+    color: #32435f;
+    transition: all 0.2s ease-in-out; 
+    transform: scale(1.2); 
+    z-index: 1;
+
+
+}
+
+.brand {
+    background-color: #32435f;
+    width: 11%;
+    border: 2px solid #E1DCD9;
+    padding: 0px;
+    text-align: center;
+    font-size: xx-large;
+    line-height: 70px;
+    height: 70px;
+    position: absolute;
+    top: -0%; left: 10%;
+    color: #E1DCD9;
+}
+.men_clothes {
+    background-color: #32435f;
+    width: 11%;
+    border: 2px solid #E1DCD9;
+    padding: 0px;
+    text-align: center;
+    font-size:  xx-large;
+    line-height: 70px;
+    height: 70px;
+    position: absolute;
+    color: #E1DCD9;
+    top: -0px; left: 20%;
+    overflow: hidden;
+}
+
+.women_clothes {
+    background-color: #32435f;
+    width: 11%;
+    color: #E1DCD9;
+    border: 2px solid #E1DCD9;
+    padding: 0px;
+    text-align: center;
+    font-size: x-large;
+    line-height: 70px;
+    height: 70px;
+    position: absolute;
+    top: -0px; left: 31%;
+    overflow: hidden;
+}
+.logo {
+    background-color: rgb(255, 255, 255);
+    width: 11%;
+    border: 2px solid #E1DCD9;
+    padding: 25px;
+    text-align: center;
+    line-height: 70px;
+    height: 100px;
+    color: #E1DCD9;
+    position: absolute;
+    top: -20px; left: 42%;
+    object-fit: contain;
+
+
+}
+
+.logo:hover {
+    border-color: #32435f;
+    transition: all 0.2s ease-in-out; 
+    transform: scale(1.4); 
+}
+.box6 {
+    background-color: #32435f;
+    width: 11%;
+    color: #E1DCD9;
+    border: 2px solid #E1DCD9;
+    padding: 0px;
+    text-align: center;
+    font-size:  xx-large;
+    line-height: 70px;
+    height: 70px;
+    position: absolute;
+    top: -0px; left: 55%;
+}
+.box7 {
+    background-color: #32435f;
+    width: 11%;
+    border: 2px solid #E1DCD9;
+    padding: 0px;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 70px;
+    height: 70px;
+    position: absolute;
+    top: -0px; left: 65%;
+    color: #E1DCD9;
+}
+.box8 {
+    background-color: #32435f;
+    width: 11%;
+    color: #E1DCD9;
+    border: 2px solid #E1DCD9;
+    padding: 0px;
+    text-align: center;
+    font-size: xx-large;
+    line-height: 70px;
+    height: 70px;
+    position: absolute;
+    top: -0px; left: 75%;
+}
+.user {
+    background-color: #32435f;
+    color: #E1DCD9;
+    width: 11%;
+    border: 2px solid #E1DCD9;
+    padding: 20px;
+    text-align: center;
+    line-height: 70px;
+    height: 200px;
+    position: absolute;
+    top: -20px; left: 85%;
+}
+
+
+
+
+.Search {
+    
+    
+    
+    position: relative;
+    bottom: -111px;  left: 85%;
+}
+input {
+    height: 25px;
+}
+
+.cart {
+    position: relative;
+    left: 87%; top: 90px;
+    color: #E1DCD9;
+}
+.favorites {
+    position: relative;
+    left: 88.5%; top: 110px;
+    color: #E1DCD9;
+}
+
+
+
+.slidecontainer {
+    width: 1px;
+}
+
+.sliderValue {
+    position: relative;
+    top: -70px;
+}
+
+.slider {
+    position: relative;
+    top: -400px; left: -2px;
+
+}
+.big_box {
+    background-color:#32435f;
+    width: 11%;
+    border: 2px solid #E1DCD9;
+    padding: 25px;
+    text-align: center;
+    line-height: 70px;
+    height: 850px;
+    position: absolute;
+    top: 58px; left: 0px;
+    object-fit: contain;
+    z-index: -1;
+}
+#slider {
+    width: 11%;
+    
+}
+#sliderText, .sliderValue {
+    color: #E1DCD9;
+}
+
+
+#chekbox1 {
+    width: 30px; height: 30px;
+    
+}
+#hoodies, #t-shirts, #pants {
+    position: relative;
+    top: -405px; left: 20px;
+    font-size:  20px;
+    color: #E1DCD9;
+}
+
+#checkbox2, #checkbox1, #checkbox3{
+    position: relative;
+     left: 15px; top: -400px;
+}
+.tall_box {
+    background-color: #32435f;
+    width: 150px;
+    border: 2px solid #E1DCD9;
+    padding: 25px;
+    text-align: center;
+    line-height: 70px;
+    height: 700px;
+    position: relative;
+    bottom: -91px; left: 87%;
+
+}
+
+.sales {
+    background-color: white;
+    width: 600px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    object-fit:cover;
+    line-height: 70px;
+    height: 300px;
+    position: absolute;
+    top: 400px; left: 600px;
+}
+
+.sales:hover {
+    transition: all 0.2s ease-in-out; 
+    transform: scale(1.2);
+}
+
+
+
+.leftButton {
+    position: absolute;
+    top: 575px; left: 33%;
+}
+.rightButton {
+    position: absolute;
+    top: 575px; left: 61.5%;
+}
+
+#img {
+    width: 600px;
+    position: absolute;
+    top: 400px; left: 35%;
+}
+
+.footer {
+    background-color: rgb(128, 128, 128);
+    border: 2px solid black;
+    height: 400px;
+    width: 2500px;
+    position: relative;
+    font-size: 85px;
+    top: -190px;
+    right: 8px;
+}
