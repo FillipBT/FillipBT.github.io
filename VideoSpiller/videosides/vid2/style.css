@@ -1,0 +1,76 @@
+body{
+    background: white;
+    background: linear-gradient(to left, #17BEBB, #85CB33)
+}
+
+
+div{
+  margin: 10px;
+  border: 0px solid black;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}   
+
+.topp{
+
+}
+
+
+
+
+.innhold{
+    background: linear-gradient(to left, #f46b45, #eea849);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    width: 75%;
+    height: 75%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 1000px){
+
+    .innhold{
+        display: flex;
+        flex-wrap: wrap;
+       
+        justify-content: center;
+        
+
+    }
+}
+
+.uthold {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.heroVideo{
+    width: 90%;
+    height: 100%;
+
+}
+.mainVideo{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.homePage a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
