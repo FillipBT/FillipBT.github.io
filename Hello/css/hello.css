@@ -1,0 +1,16 @@
+body {
+background-color: grey;
+
+}
+h1 {
+    color: red;
+}
+
+.avsnitt1 {
+    color: blue;
+}
+
+
+#epost, #Passord{
+    background-color: aqua;
+}

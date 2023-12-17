@@ -1,11 +1,12 @@
 function myFunction() {
-    var x = document.getElementById("text");
+    var x = document.getElementById("oppgave1Img");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
       x.style.display = "block";
     }
   }
+  
 
   function myFunction2() {
     var x = document.getElementById("text2");
@@ -43,3 +44,18 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+
+
+
+
+  const button = document.getElementbyId("btn");
+
+let count = 0;
+
+button.addEventListener("click", ()=>{
+   count = count + 1;
+   alert("button is clicked" + count);
+})
+if (count < 1){
+  getElementById("btn").style.display === "none"
+}
